@@ -10,7 +10,7 @@ app.use(handlebars({
   defaultLayout: "index"
 }));
 
-// 定义路由
+// 定义路由w
 router.get("/", function *(next) {
 
   yield this.render('app/home',{
